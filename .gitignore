@@ -1,1 +1,59 @@
-node_modules
+# compiled output
+/dist
+/tmp
+/src/manifest.json
+target/
+staging/
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/git commit -a
+*.iml
+atlassian-ide-plugin.xml
+
+# misc
+/.sass-cache
+/out-spec
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/proxy.conf.json
+/json-server/db.json
+/gocd-server-mock.js
+tsfmt.json
+uac-actions.txt
+
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# src
+/src/*.js
+/src/*.js.map
+
+
+#System Files
+.DS_Store
+Thumbs.db
+
+tools/scripts/.nvm
+tools/docker-compose/docker-compose.yml
+.npmrc
+.npm-cache
+json-server-db.json
+json-server-routes.json
+
+.scannerwork
+
